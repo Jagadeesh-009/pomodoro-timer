@@ -1,0 +1,60 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    min-height: 97vh;
+    justify-content: center;
+    align-items: center;
+}
+.timer-app{
+    border-radius: 20px;
+    padding: 20px ;
+}
+.title,.timer{
+    text-align: center;
+} 
+.start{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(58, 224, 58);
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.stop{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(224, 58, 58);
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.reset{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(177, 174, 174);
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+} 
+.shortBreak{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(39, 172, 220);
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.longBreak{
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(196, 39, 220);
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
